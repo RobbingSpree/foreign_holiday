@@ -20,6 +20,7 @@ box_wid = x2-x1 - margin*2;
 
 global.scene = loc.hotel;
 
+
 enum loc
 {
 	hotel,

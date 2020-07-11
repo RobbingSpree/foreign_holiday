@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0c8ad877-6716-4d13-b051-005eb1247597",
+            "Value": {
+                "id": "677f4ee3-b124-4161-9fe9-3525947f0ebd",
+                "resourcePath": "rooms\\logo_sequence\\logo_sequence.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "100549a2-e064-4a8a-8002-d5fc5be64454",
             "Value": {
                 "id": "b4b913ee-d758-4152-b23e-09008d591db0",
@@ -108,6 +116,14 @@
                 "id": "83715341-ae7d-43b1-8a89-ff3d26544953",
                 "resourcePath": "views\\26d3b20f-8845-4955-9fde-14247bca464a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2e21f3e5-4ca0-4985-8bb3-ea46a9a36c87",
+            "Value": {
+                "id": "81802708-49c5-4945-9af4-f99f2b8486de",
+                "resourcePath": "sprites\\bg_temp\\bg_temp.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -175,6 +191,14 @@
             }
         },
         {
+            "Key": "51ace191-5008-4428-a92b-5931dffdcac9",
+            "Value": {
+                "id": "3d17088f-ea0e-43a4-b3c2-baa3d51460de",
+                "resourcePath": "sprites\\gmtk2020_spr\\gmtk2020_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "57ac0c1c-f244-4b28-9517-83997cafe94b",
             "Value": {
                 "id": "40f0d2d9-4d34-4a97-8289-54c1970bb816",
@@ -191,6 +215,14 @@
             }
         },
         {
+            "Key": "5da33d3c-26c4-46ec-8112-6ed578e3d70a",
+            "Value": {
+                "id": "b0f0f8f1-ee8f-40a5-854c-2478b8717c24",
+                "resourcePath": "rooms\\title_room\\title_room.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "60de6b6c-18be-4484-8e86-9eee4d0ff8b0",
             "Value": {
                 "id": "321595a1-6306-4a67-8cde-b4587f572c07",
@@ -204,6 +236,14 @@
                 "id": "1dade59d-d98c-4f62-87b4-74f3a3693868",
                 "resourcePath": "views\\6b46ff33-6c72-43df-b2e3-1a289b6c9bc7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6f048388-5f9b-444f-9b7b-137df5229185",
+            "Value": {
+                "id": "c70b9c36-5b8f-4adf-b667-636f3fbdb62f",
+                "resourcePath": "objects\\logo\\logo.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -351,6 +391,14 @@
             }
         },
         {
+            "Key": "af946131-1326-4db4-8efe-5e0ea96d6bbd",
+            "Value": {
+                "id": "536b5c83-423c-452d-975f-85f5d6920d7b",
+                "resourcePath": "objects\\main_menu_controller\\main_menu_controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b384efd0-df09-4294-8cce-6c4d04d51cb9",
             "Value": {
                 "id": "70fb4285-2a12-4c44-bbc0-9396b0d6c8d0",
@@ -364,6 +412,14 @@
                 "id": "c8a064cb-caf4-49f6-8f64-64252d6a763a",
                 "resourcePath": "sprites\\location_spr\\location_spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b84e3e28-ab7e-4b9d-acb3-f703daf00c0c",
+            "Value": {
+                "id": "8be41030-96d7-4c5a-8cb5-3974e4245ec0",
+                "resourcePath": "fonts\\title_sub_font\\title_sub_font.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -399,6 +455,14 @@
             }
         },
         {
+            "Key": "dc25b115-e53e-45a8-af5e-889da68be21f",
+            "Value": {
+                "id": "2fe3a7dd-c15e-4d4d-b22a-d76f59ea0ce9",
+                "resourcePath": "objects\\bg_controller\\bg_controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
             "Value": {
                 "id": "06bd92e0-639c-4b9a-ac34-46c778eedf3a",
@@ -407,11 +471,27 @@
             }
         },
         {
+            "Key": "e5d16fd7-d1b2-4335-9b1e-04938f94108e",
+            "Value": {
+                "id": "cf6c9461-8a23-401c-9979-fdf9c36132c8",
+                "resourcePath": "fonts\\title_font\\title_font.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "ede3ea77-aac7-4a5f-aa7c-6bc4f6989cbe",
             "Value": {
                 "id": "f0c9a91a-7618-44ec-9608-bb64dac8f702",
                 "resourcePath": "scripts\\mouse_within\\mouse_within.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ee1d179a-9c29-4a13-a260-9002c840d27c",
+            "Value": {
+                "id": "38e18ccd-30a5-426d-94bb-86a4bf7e3032",
+                "resourcePath": "sprites\\Overworld_Logo\\Overworld_Logo.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
