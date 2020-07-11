@@ -49,7 +49,6 @@ if message_end > 0
 }
 
 //draw the text
-//draw_text(tx,ty,message[message_current]);
 while( i<= string_length(message[message_current]) && i <= cutoff)
 {
 	//check for modifier

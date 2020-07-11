@@ -10,9 +10,12 @@ y=y1;
 
 str = "";
 draw_set_font(defont);
-
+modifier = 0;
 margin = 30;
 new_row = 30;
+cutoff = 0;
+timer = 0;
+instant = false;
 box_wid = x2-x1 - margin*2;
 
 global.scene = loc.hotel;
@@ -21,8 +24,10 @@ enum loc
 {
 	hotel,
 	market,
-	ally,
-	cafe
+	alley,
+	cafe,
+	pstation,
+	park
 }
 
 text = 0;

@@ -10,8 +10,9 @@ if choice == "b"
 if mouse_over(self) && mouse_check_button_pressed(mb_left)
 {
 	text_box.text = story_pointer;
+	text_box.instant = false;
 	//remove all question boxes
-	with question_parent
+	with text_choice
 	{
 		instance_destroy(self);
 	}

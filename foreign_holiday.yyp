@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0b0b740e-c16c-451d-abcc-e98ef52ff8bc",
+            "Value": {
+                "id": "2b8e016a-0c87-4610-b3b8-17d93ba4e4d1",
+                "resourcePath": "objects\\scene_flag\\scene_flag.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "100549a2-e064-4a8a-8002-d5fc5be64454",
             "Value": {
                 "id": "b4b913ee-d758-4152-b23e-09008d591db0",
@@ -103,6 +111,14 @@
             }
         },
         {
+            "Key": "34536aab-1142-4b16-92dc-49e0786d686a",
+            "Value": {
+                "id": "91b523fd-8d02-4c75-b37c-a3683288dbd4",
+                "resourcePath": "sprites\\location_tag_spr\\location_tag_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "36415116-8825-40f1-88d4-e3db7d9db7f8",
             "Value": {
                 "id": "68e00492-383e-432e-ab4f-da13cfae466a",
@@ -164,14 +180,6 @@
                 "id": "7b86f2b9-c85c-4a43-ab3a-eef8739873a7",
                 "resourcePath": "views\\57ffc0bd-1b18-4ce4-8f71-b803e9591b26.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "58a676af-1207-44de-8e73-2d930cf7db09",
-            "Value": {
-                "id": "9ac656cc-88c1-4285-aa31-0f2d56c47158",
-                "resourcePath": "objects\\question_parent\\question_parent.yy",
-                "resourceType": "GMObject"
             }
         },
         {

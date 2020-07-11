@@ -9,6 +9,7 @@ var c_pointer = 0;
 var c_string = "Que?";
 
 text_box.str = "I think they're expecting a response."
+text_box.instant = true;
 
 //questions from hotel room
 if scene == loc.hotel
