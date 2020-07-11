@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "1138c3de-78e3-4595-98c7-7365c66543f4",
+            "Value": {
+                "id": "bdbe729c-a333-4319-b1e4-6006063784dd",
+                "resourcePath": "scripts\\get_scene_title\\get_scene_title.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1310f732-d65e-449f-93f8-9c2d91914dfd",
             "Value": {
                 "id": "05153fb1-f44c-455b-8fe2-dcfbdd5bac1b",
@@ -430,7 +438,8 @@
         "18d454cd-799d-4b00-9260-204f251a3163",
         "ede3ea77-aac7-4a5f-aa7c-6bc4f6989cbe",
         "4a0912ec-8f21-4157-b8bc-2e5bb543db77",
-        "36415116-8825-40f1-88d4-e3db7d9db7f8"
+        "36415116-8825-40f1-88d4-e3db7d9db7f8",
+        "1138c3de-78e3-4595-98c7-7365c66543f4"
     ],
     "tutorial": ""
 }

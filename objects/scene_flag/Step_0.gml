@@ -1,10 +1,15 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
+
 if ease_in 
 {
-	y=lerp(y,jy,0.05);
-	if abs(y-jy) < 2
+	var ty = lerp(y,jy,0.07);
+	if abs(ty-y) <1
+		y+=0.5;
+	else y=ty;
+	if abs(y-jy) < 0.5
 	{
 		y=jy;
 		ease_in=false;
@@ -22,7 +27,7 @@ if ease_out
 	}
 }
 
-if timer>0
+if timer>0 && !ease_in
 	timer--
-if timer <=0
+if timer <=0 && !ease_in
 	ease_out=true;

@@ -6,13 +6,13 @@ if mouse_over(self) && mouse_check_button_pressed(mb_left)
 	
 if hide == false
 {
-	loc_list.x = x;
+	loc_list.dx = x;
 	with loc_item
 		if hidden == false
-			x = loc_list.x+31;
+			dx = loc_list.dx+31;
 } else {
-	loc_list.x = x+500;
+	loc_list.dx = x+500;
 	with loc_item
 		if hidden == false
-			x = loc_list.x+31;
+			dx = loc_list.dx+31;
 }

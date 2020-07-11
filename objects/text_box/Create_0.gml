@@ -27,7 +27,8 @@ enum loc
 	alley,
 	cafe,
 	pstation,
-	park
+	park,
+	void
 }
 
 text = 0;
