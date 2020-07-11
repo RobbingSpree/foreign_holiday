@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "01fe6e17-1924-4c56-a985-bd52d8b2364f",
+            "Value": {
+                "id": "37486496-d1fe-4c70-ba64-ff46c311bbf8",
+                "resourcePath": "objects\\credits_controller\\credits_controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "067d34fa-95db-47b9-ad17-0caed0991315",
             "Value": {
                 "id": "29ef1938-dc30-49cb-8bcd-c220cd0bcd2e",
@@ -76,6 +84,14 @@
                 "id": "05153fb1-f44c-455b-8fe2-dcfbdd5bac1b",
                 "resourcePath": "objects\\loc_list\\loc_list.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "13649cbc-17bd-44bd-83be-f5aedbd14c39",
+            "Value": {
+                "id": "27a6658d-2eac-40e6-8322-3952db247527",
+                "resourcePath": "rooms\\credit_room\\credit_room.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
