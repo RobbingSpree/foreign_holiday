@@ -5,8 +5,11 @@ x1=room_width/5;
 y1=y;
 x2=room_width/5*4;
 y2=y+200;
+x=x1;
+y=y1;
 
 str = "";
+draw_set_font(defont);
 
 margin = 30;
 new_row = 30;

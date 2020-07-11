@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "067d34fa-95db-47b9-ad17-0caed0991315",
+            "Value": {
+                "id": "29ef1938-dc30-49cb-8bcd-c220cd0bcd2e",
+                "resourcePath": "objects\\debug\\debug.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "100549a2-e064-4a8a-8002-d5fc5be64454",
             "Value": {
                 "id": "b4b913ee-d758-4152-b23e-09008d591db0",
@@ -52,6 +60,14 @@
                 "id": "e0646642-e025-400b-8f32-544aecc2f5fa",
                 "resourcePath": "views\\138efabb-242d-45df-b19a-7f3f40fb8f7b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "15b65c63-f77a-45ea-8806-2ec48a9ac9b0",
+            "Value": {
+                "id": "cd57df29-9437-4b13-976b-c71350abe26f",
+                "resourcePath": "fonts\\defont\\defont.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -116,6 +132,14 @@
                 "id": "62835373-5091-4884-9341-44f934384cf6",
                 "resourcePath": "scripts\\change_scene\\change_scene.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "4a91391f-7163-44cc-8e62-2cc63a98e7bd",
+            "Value": {
+                "id": "92e71bd4-f5d3-4820-9002-ceeee35adea1",
+                "resourcePath": "rooms\\debug_room\\debug_room.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

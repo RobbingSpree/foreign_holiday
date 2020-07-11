@@ -9,10 +9,10 @@ if hide == false
 	loc_list.x = x;
 	with loc_item
 		if hidden == false
-			x = loc_list.x;
+			x = loc_list.x+31;
 } else {
 	loc_list.x = x+500;
 	with loc_item
 		if hidden == false
-			x = loc_list.x;
+			x = loc_list.x+31;
 }

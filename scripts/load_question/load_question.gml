@@ -15,7 +15,7 @@ if scene == loc.hotel
 	switch line
 	{
 		case  0: a_pointer = 0; b_pointer = 0; break;
-		case  1: a_pointer = 0; b_pointer = 0; c_pointer = 0; c_string = ""; third_ = true break;
+		case  1: a_pointer = 0; b_pointer = 0; c_pointer = 0; c_string = "Que"; third_ = true break;
 	}
 
 
