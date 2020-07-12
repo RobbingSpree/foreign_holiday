@@ -479,6 +479,14 @@
             }
         },
         {
+            "Key": "dce67090-a7df-441e-a43f-8356edc517cd",
+            "Value": {
+                "id": "8a842a99-587c-4c80-8f2c-9cb25ed18d45",
+                "resourcePath": "sprites\\bg_reals\\bg_reals.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
             "Value": {
                 "id": "06bd92e0-639c-4b9a-ac34-46c778eedf3a",
