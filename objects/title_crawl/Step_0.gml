@@ -5,8 +5,10 @@ timer += text_speed*spd;
 counter += spd;
 
 if counter > 2500 || finished
+{
+	audio_stop_sound(space_opera_synthy_final);
 	room_goto(room0);
-
+}
 if spd < 16 && mouse_check_button_pressed(mb_left)
 	spd = spd*2;
 	

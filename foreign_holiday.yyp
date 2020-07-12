@@ -183,14 +183,6 @@
             }
         },
         {
-            "Key": "306c057f-3186-4368-9e71-34655b697e78",
-            "Value": {
-                "id": "cd563697-e704-4f17-80d0-84aa13cc0976",
-                "resourcePath": "sounds\\space_opera_synthy_final1\\space_opera_synthy_final1.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "314670ff-7322-4817-9a4f-0878decfec15",
             "Value": {
                 "id": "e61e4d7d-71ce-4a26-8fda-cc01bc049455",
@@ -692,6 +684,14 @@
                 "id": "8a842a99-587c-4c80-8f2c-9cb25ed18d45",
                 "resourcePath": "sprites\\bg_reals\\bg_reals.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e2c2e219-5085-4d0f-8bad-e9a8c83c3975",
+            "Value": {
+                "id": "202dac9d-2007-4fdc-8c38-3dbb710d9bbe",
+                "resourcePath": "sounds\\Holiday_music_sarcasm\\Holiday_music_sarcasm.yy",
+                "resourceType": "GMSound"
             }
         },
         {

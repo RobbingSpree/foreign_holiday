@@ -25,7 +25,7 @@ if global.alley_visits == 0
 		case 6: return "/4Ray so! La so' te soso meso laso. La sote sososote, me te sososote."; break
 		case 7: load_question(global.scene,line,false); return "Ummmm . . . "; break
 		case 8: return "/4So! La sote sososote, te sososote."; break
-		case 9: loc_list.loc_status[loc.park].hidden = false; text_box.actor_leave = true; text_box.convo_end = true; global.alley_visits++; return "/3He skuls back into the shadows of the alley."; break
+		case 9: loc_list.loc_status[loc.park].hidden = false; text_box.actor_leave = true; text_box.convo_end = true; global.alley_visits++; return "/3He skulks back into the shadows of the alley."; break
 
 		default: return "I'm in danger";
 	}

@@ -23,5 +23,7 @@ for (var i = stars-1; i > -1; i--)
 }
 draw_set_font(title_crawl_font);
 
+audio_play_sound(space_opera_synthy_final,1,false);
+
 //from 
 //https://forum.yoyogames.com/index.php?threads/creating-an-intro-screen.12788/

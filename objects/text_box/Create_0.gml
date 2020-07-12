@@ -35,3 +35,6 @@ pt3_b = pt3_a+210;
 pt3_c = pt3_b+210;
 pt2_a = x1+50;
 pt2_b = pt2_a+350;
+
+//sound
+audio_play_sound(walking_about_final,1,true);
