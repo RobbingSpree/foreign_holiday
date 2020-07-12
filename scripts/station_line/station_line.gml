@@ -3,34 +3,29 @@ var line  = argument0;
 if global.police_visits == 0
 	switch line
 	{
-		case 0: return "Oh no, why did I end up here, I haven’t done anything wrong! At least, not that I know of..."; break
-		case 0: return "[Police woman enters] Sofa meme tela dola retimiso? Tereme fala so la mere tetere la! Te re so lami rete “Sote me Sola”!"; break
-		case 0: return "Oh no, ummmm . . . 	Sote	Sola"; break
+		//text_box.actor_arrive = true; text_box.talking = actor.barista;
+		case 0: return "/0Oh no, why did I end up here, I haven’t done /1anything /0wrong!"; break
+		case 0: return "At least, not that I know of..."; break
+		case 0: text_box.actor_arrive = true; text_box.talking = actor.police_l; return "/4Sofa meme tela dola retimiso? Tereme fala so la mere tetere la!”!"; break
+		case 0: return "/4Te re so lami rete “Sote me Sola"; break
+		case 0: load_question(global.scene,line,false); return "Oh no, ummmm . . ."; break
 		case 0: return "Oh no they look frustrated."; break
-		case 0: return "Sola te… re, mere telaso doso la, soredola la tereme tedola?"; break
-		case 0: return "Errr….       Sote  Sola"; break
-		case 0: return "Dosore la reteso, me sodolate me tela reso me la fa."; break
-		case 0: return "Oh here we go, they’re putting me in a cell. This is not how I saw my honeymoon ending up… What will I do if Charlie doesn’t find me!?"; break
-
-		default: return "I don't think this could have gone worse...";
-	}
-	
-if global.police_visits == 1
-	switch line
-	{
-		case 0: return "Dosore la reteso, me sodolate me tela reso me la fa."; break
-
-		default: return "I don't think this could have gone worse...";
-	}
-	
-if global.police_visits == 2
-	switch line
-	{
-		case 0: return "[Wife enters, angry face] What have you been doing!? The police officer came to get me. Said you’d been propositioning all the people in the village! "; break
-		case 0: return "No, I wasn’t. The clerk at the hotel taught me yes and no. I was just trying to talk to people and find you. I’m so hungover!"; break
-		case 0: return "I'll try and help you explain this but you have a lot of apologising to do! [Wife exits]"; break
-		case 0: return "Internal dialogue: Not the best way to start matrimonial bliss… Oh well."; break
-
+		case 0: return "/4Sola te... re, mere telaso doso la, soredola la tereme tedola?"; break
+		case 0: load_question(global.scene,line,false); return "/3Errr..."; break
+		case 0: return "/4Dosore la reteso, me sodolate me tela reso me la fa."; break
+		case 0: return "/3Oh here we go, they’re putting me in a cell."; break
+		case 0: change_scene(loc.pstation); return "This is not how I saw my honeymoon ending up... What will I do if Charlie doesn’t find me!?"
+		case 0: text_box.actor_arrive = true; text_box.talking = actor.police_l; return "Dosore la reteso, me sodolate me tela reso me la fa."; break
+		case 0: change_scene(loc.pstation); return "I don't think this could have gone worse...";
+//gets worse
+		case 0: text_box.actor_arrive = true; text_box.talking = actor.wife_mad; return "What have you been doing!? "; break
+		case 0: return" The police officer came to get me. Said you’d been propositioning all the people in the village!"; break
+		case 0: return "No, I wasn’t. The clerk at the hotel taught me yes and no."; break
+		case 0: return "I was just trying to talk to people and find you. I’m so hungover!"; break
+		case 0: return "I'll try and help you explain this but you have a lot of apologising to do!"; break
+		case 0: text_box.actor_leave = true;return "She walks away and start to talk to one of the officers"; break
+		case 0: return "Not the best way to start matrimonial bliss... Oh well."; break
+		case 0: room_goto(bad_end); break
 	}
 	
 /*
@@ -41,12 +36,12 @@ Character question: Sofa meme tela dola retimiso? Tereme fala so la mere tetere 
 {Sir, can you tell me where you’re staying? The locals are concerned you’re a bit lost! They said you just keep saying “Massage or Facial”!)
 Character selection: Oh no, ummmm . . . 	Sote	Sola
 Internal dialogue: Oh no they look frustrated.
-NPC: Sola te… re, mere telaso doso la, soredola la tereme tedola?
-{Okay then… well, what about your name, surely you can tell me that?}
-Character selection: Errr….       Sote  Sola  
+NPC: Sola te... re, mere telaso doso la, soredola la tereme tedola?
+{Okay then... well, what about your name, surely you can tell me that?}
+Character selection: Errr....       Sote  Sola  
 NPC: Dosore la reteso, me sodolate me tela reso me la fa.
 {Well okay then, I think you should stay here to be safe.}
-Internal dialogue: Oh here we go, they’re putting me in a cell. This is not how I saw my honeymoon ending up… What will I do if Charlie doesn’t find me!?
+Internal dialogue: Oh here we go, they’re putting me in a cell. This is not how I saw my honeymoon ending up... What will I do if Charlie doesn’t find me!?
 
   
 Police Station: 2 Police officer
@@ -63,4 +58,4 @@ NPC dialogue: What have you been doing!? The police officer came to get me. Said
 Character question: No, I wasn’t. The clerk at the hotel taught me yes and no. I was just trying to talk to people and find you. I’m so hungover!
 NPC dialogue: I'll try and help you explain this but you have a lot of apologising to do!
 [Wife exits]
-Internal dialogue: Not the best way to start matrimonial bliss… Oh well.
+Internal dialogue: Not the best way to start matrimonial bliss... Oh well.

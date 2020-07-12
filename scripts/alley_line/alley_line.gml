@@ -51,12 +51,12 @@ if global.alley_visits == 3
 if global.wife_find == true
 	switch line
 	{
-		case 0: return "/0… is… is that Charlie? I should try and catch up with her! Wait!"; break;
+		case 0: return "/0... is... is that Charlie? I should try and catch up with her! Wait!"; break;
 		case 1: text_box.actor_arrive = true; text_box.talking = actor.wife; return "“Darling! I just found the most wonderful cafe, isn’t this place so quaint?”"; break;
 		case 2: return "Uh, yeah, you could say it is although I’ve spent most of the morning looking for you and getting very mixed up on the way! "; break;
-		case 3: return "I might have unintentionally insulted a few people…"; break;
+		case 3: return "I might have unintentionally insulted a few people..."; break;
 		case 4: return "She starts heading back towards a nearby cafe."; break;
-		case 5: return "Oh dear… well, I’m sure they’ll understand. Come on, let’s go and get breakfast!"; break;
+		case 5: return "Oh dear... well, I’m sure they’ll understand. Come on, let’s go and get breakfast!"; break;
 		case 6: room_goto(good_end); break;
 		default: return "Cat cat cat cat.";
 	}
@@ -93,8 +93,8 @@ Alley: 4 Cat (Repeat) if you select to come back RNG
 NPC dialogue: Rewow. Meeeow, meow.
 Internal monologue: Hey kitty it’s you again. Have you seen Charlie?
 Alley: Wife (if you click on her in the background)
-Internal dialogue: … is… is that Charlie? I should try and catch up with her! Wait!
+Internal dialogue: ... is... is that Charlie? I should try and catch up with her! Wait!
 
 Wife: “Darling! I just found the most wonderful cafe, isn’t this place so quaint?”
-Character: “Uh, yeah, you could say it is although I’ve spent most of the morning looking for you and getting very mixed up on the way! I might have unintentionally insulted a few people…”
+Character: “Uh, yeah, you could say it is although I’ve spent most of the morning looking for you and getting very mixed up on the way! I might have unintentionally insulted a few people...”
 Wife: 

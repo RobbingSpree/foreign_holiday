@@ -44,7 +44,7 @@ Internal monologue: She looks more concerned.
 Character selection: Ummmm . . . 	Sote	Sola	 Leave
 If you select anything but leave you go to the police station, bad ending.
 Park: Wife 1 (looking out over the ocean)
-Character internal dialogue: … is that the love of my life standing over there? Charlie!
+Character internal dialogue: ... is that the love of my life standing over there? Charlie!
 Wife: “Why, hello there dashing stranger!”
 Character: “Finding you almost makes me forget my hangover!”
 Wife: “This sea air can only help! Here, have some banana bread.” She smiles and hands you some food before kissing you on the cheek.
