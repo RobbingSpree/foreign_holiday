@@ -25,14 +25,11 @@ switch index
 	case 17: str = "life will catch up with you. "; break;
 	case 18: str = ""; break;
 	case 19: str = "Your head is starting to hurt. "; break;
-	case 20: str = "You don’t know for certain where you are."; break;
+	case 20: str = "You don't know for certain where you are."; break;
 	case 21: str = "You can hear new noises outside "; break;
 	case 22: str = "and you can already feel your "; break;
 	case 23: str = "tummy telling you "; break;
 	case 24: str = "the party went on a little long."; break;
-
-
-	
 }
 
 return str;

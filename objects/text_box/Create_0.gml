@@ -19,10 +19,11 @@ instant = false;
 box_wid = x2-x1 - margin*2;
 
 //dialouge UI variables
-text = -1;
+text = 0;
 question = false;
+convo_end = false;
 talking = actor.no_one;
-fade = 1;
+fade = 0;
 actor_arrive = false;
 actor_leave = false;
 

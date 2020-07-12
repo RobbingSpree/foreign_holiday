@@ -6,7 +6,9 @@ if talking < actor.no_one
 {
 	draw_sprite_ext(character_closeups,talking,0,0,0.5,0.5,0,c_white,fade);
 }
-
+draw_set_color(c_red);
+draw_text(20,20,talking);
+draw_set_color(c_white);
 //draw textbox
 
 nine_slice_draw(txt_box_spr,x1,y1,x2,y2);
@@ -17,7 +19,7 @@ if str != "" || instant
 	//draw the text
 	//variables
 	var charwidth = 13;
-	var line_end  = box_wid;
+	var line_end  = 43;
 	var line = 0;
 	var space = 0;
 	var i =1;
@@ -85,6 +87,18 @@ if str != "" || instant
 				draw_text(tx+(space*charwidth), ty+(new_row*line), string_char_at(str,i));
 				break;
 			}
+			case 3: //red
+			{
+				draw_set_font(defont);
+				draw_text(tx+(space*charwidth), ty+(new_row*line), string_char_at(str,i));
+				break;
+			}
+			case 4: //red
+			{
+				draw_set_font(forign_font);
+				draw_text(tx+(space*charwidth), ty+(new_row*line), string_char_at(str,i));
+				break;
+			}
 		}
 	
 	
@@ -92,8 +106,7 @@ if str != "" || instant
 		space++
 		i++
 	}
-} else
-	draw_text_ext(x1+margin,y1+margin,str,new_row,box_wid);
+} //else draw_text_ext(x1+margin,y1+margin,str,new_row,box_wid);
 
 
 draw_set_color(c_white);

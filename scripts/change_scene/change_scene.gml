@@ -8,3 +8,6 @@ scene_flag.str = get_scene_title(argument0);
 location_controller.hide=true;
 bg_controller.flag = true;
 bg_controller.new_bg = global.scene;
+text_box.text = 0;
+text_box.actor_leave = true;
+text_box.convo_end = false;

@@ -4,6 +4,18 @@
 if mouse_over(self) && mouse_check_button_pressed(mb_left)
 	hide = !hide
 	
+if tutorial_hide 
+	x = dx + 300;
+else if x!= dx
+{
+	var tx = lerp(x,dx,0.07);
+	if abs(dx-x) <1
+	{
+		x+=(round(abs(dx-x)))/2
+	} else 
+		x=tx;
+}	
+	
 if hide == false
 {
 	loc_list.dx = x;

@@ -4,3 +4,6 @@
 //global.scene = loc.hotel;
 
 hide = true;
+
+tutorial_hide = true;
+dx = x;

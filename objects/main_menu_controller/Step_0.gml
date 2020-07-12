@@ -13,3 +13,4 @@ if keyboard_check_pressed(ord("C"))
 	global.park_visits = 0;
 	global.cafe_visits = 0;
 	global.police_visits = 0;
+	global.void_visits = 0;

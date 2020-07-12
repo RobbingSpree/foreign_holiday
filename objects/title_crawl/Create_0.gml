@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 counter = 0;
+spd = 1;
 timer = 0;
 for (var i = 24; i > -1; i--)
 {

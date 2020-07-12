@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "5636fa6c-0043-41b3-9708-15bf229cd7c1",
+            "Value": {
+                "id": "d17da322-7922-49f8-92e2-56bd2934494f",
+                "resourcePath": "objects\\character_controller\\character_controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "57ac0c1c-f244-4b28-9517-83997cafe94b",
             "Value": {
                 "id": "40f0d2d9-4d34-4a97-8289-54c1970bb816",
@@ -604,6 +612,14 @@
                 "id": "8a842a99-587c-4c80-8f2c-9cb25ed18d45",
                 "resourcePath": "sprites\\bg_reals\\bg_reals.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e2c7699b-861d-44e8-81fa-47b19a1c52f5",
+            "Value": {
+                "id": "1864288f-ee30-4045-ab82-371c4e401da9",
+                "resourcePath": "fonts\\forign_font\\forign_font.yy",
+                "resourceType": "GMFont"
             }
         },
         {
