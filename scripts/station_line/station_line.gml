@@ -14,9 +14,9 @@ if global.police_visits == 0
 		case 7: load_question(global.scene,line,false); return "/3Errr..."; break
 		case 8: return "/4Dosore la rayteso, me sodolate me tela rayso me la fa."; break
 		case 9: return "/3Oh here we go, they're putting me in a cell."; break
-		case 10: change_scene(loc.pstation); return "This is not how I saw my honeymoon ending up... What will I do if Charlie doesn't find me!?"
-		case 11: text_box.actor_arrive = true; text_box.talking = actor.police_l; return "Dosoray la rayteso, me sodolate me tela rayso me la fa."; break
-		case 12: change_scene(loc.pstation); return "I don't think this could have gone worse...";
+		case 10: return "This is not how I saw my honeymoon ending up... What will I do if Charlie doesn't find me!?"
+		case 11: text_box.actor_arrive = true; text_box.talking = actor.police_l; return "/4Dosoray la rayteso, me sodolate me tela rayso me la fa."; break
+		case 12: return "/3I don't think this could have gone worse...";
 //gets worse 
 		case 13: text_box.actor_arrive = true; text_box.talking = actor.wife_mad; return "What have you been doing!? "; break
 		case 14: return" The police officer came to get me. Said you'd been propositioning all the people in the village!"; break

@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "23166735-b102-4e28-9110-65f09d35e876",
+            "Value": {
+                "id": "85e4f7a1-f4fc-4574-8ca1-598285619710",
+                "resourcePath": "sprites\\good_end_spr\\good_end_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "26d3b20f-8845-4955-9fde-14247bca464a",
             "Value": {
                 "id": "83715341-ae7d-43b1-8a89-ff3d26544953",
@@ -227,6 +235,14 @@
             "Value": {
                 "id": "48fa4278-059e-4e1d-8107-b9c2645767e7",
                 "resourcePath": "sprites\\dialouge_choice_spr\\dialouge_choice_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3c9f9ac3-ac6b-41e0-bd6f-7748ea3f39c8",
+            "Value": {
+                "id": "2b3b27f6-6c16-4b42-b22a-efbbbe5a28e0",
+                "resourcePath": "sprites\\credits_spr\\credits_spr.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -388,6 +404,14 @@
                 "id": "0b6c0e53-f794-4c9a-a169-5880e093382e",
                 "resourcePath": "options\\html5\\options_html5.yy",
                 "resourceType": "GMHtml5Options"
+            }
+        },
+        {
+            "Key": "7daebe7e-7ea5-4d39-9d0f-3e5435441bf7",
+            "Value": {
+                "id": "33e7ceaf-d044-469f-8244-d5ac0aa60311",
+                "resourcePath": "sprites\\bad_end_spr\\bad_end_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -683,6 +707,14 @@
             "Value": {
                 "id": "8a842a99-587c-4c80-8f2c-9cb25ed18d45",
                 "resourcePath": "sprites\\bg_reals\\bg_reals.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "deabdc47-9d68-4f60-90b8-df259cb360a6",
+            "Value": {
+                "id": "2499a236-8677-4d86-ac08-d761105c1086",
+                "resourcePath": "sprites\\title_spr\\title_spr.yy",
                 "resourceType": "GMSprite"
             }
         },

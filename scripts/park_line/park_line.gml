@@ -36,12 +36,13 @@ if global.park_visits == 0
 if global.park_visits == 1
 	switch line
 	{	
-		case 0: text_box.actor_arrive = true; text_box.talking = actor.oldlady; return "I approach the old lady again"; break
-		case 1: return "/4La te doh te late so do sola la? Ray fa ray so mefa me ray sote."; break
-		case 2: load_question(global.scene,line,false); return "Ummmm . . ."; break
-		case 3: return "/4Te te. La so tefa melate temete so sola la mesomemelate. Tetete tete te te me te late."; break
-		case 4: return "She looks a little concerned. I hope the birds are ok."; break
-		case 5: loc_list.loc_status[loc.cafe].hidden = false; text_box.convo_end = true; global.park_visits++; return "/0I better keep looking for Charlie. I /1think/0 I can see a /2Cafe /0in the distance."; break
+		case 0: return "I return to the park"; break
+		case 1: text_box.actor_arrive = true; text_box.talking = actor.oldlady; return "I approach the old lady again"; break
+		case 2: return "/4La te doh te late so do sola la? Ray fa ray so mefa me ray sote."; break
+		case 3: load_question(global.scene,line,false); return "Ummmm . . ."; break
+		case 4: return "/4Te te. La so tefa melate temete so sola la mesomemelate. Tetete tete te te me te late."; break
+		case 5: return "She looks a little concerned. I hope the birds are ok."; break
+		case 6: loc_list.loc_status[loc.cafe].hidden = false; text_box.convo_end = true; global.park_visits++; return "/0I better keep looking for Charlie. I /1think/0 I can see a /2Cafe /0in the distance."; break
 
 		default: return "Man, I'm hungry; maybe I can eat the birdseed?";
 	}
@@ -49,12 +50,13 @@ if global.park_visits == 1
 	if global.park_visits == 2
 	switch line
 	{	
-		case 0: text_box.actor_arrive = true; text_box.talking = actor.oldlady; return "I approach the old lady again"; break
-		case 1: return "/4La te doh te late so do sola la? Ray fa ray so mefa me ray sote."; break
-		case 2: load_question(global.scene,line,true); return "Ummmm . . ."; break
-		case 3: return "/4Te te. La so tefa melate temete so sola la mesomemelate. Tetete tete te te me te late."; break
-		case 4: text_box.convo_end = true; change_scene(loc.hotel); return "The old lady flags someone down and I realise too late it's a police officer. They lead me away."; break
-		case 5: text_box.convo_end = true; return "/0I better keep looking for Charlie. Have I looked /2everywhere/0?"; break
+		case 0: return "I return to the park again"; break;
+		case 1: text_box.actor_arrive = true; text_box.talking = actor.oldlady; return "I approach the old lady again"; break
+		case 2: return "/4La te doh te late so do sola la? Ray fa ray so mefa me ray sote."; break
+		case 3: load_question(global.scene,line,true); return "Ummmm . . ."; break
+		case 4: return "/4Te te. La so tefa melate temete so sola la mesomemelate. Tetete tete te te me te late."; break
+		case 5: text_box.convo_end = true; change_scene(loc.pstation); return "The old lady flags someone down and I realise too late it's a police officer. They lead me away."; break
+		case 6: text_box.convo_end = true; return "/0I better keep looking for Charlie. Have I looked /2everywhere/0?"; break
 
 		default: return "Man, I'm hungry; maybe I can eat the birdseed?";
 	}
