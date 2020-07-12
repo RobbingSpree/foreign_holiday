@@ -16,12 +16,18 @@ switch global.scene
 {
 	case loc.void: x=-100; y=-100; break;
 	case loc.hotel: x=-100; y=-100; break;
-	case loc.market: sprite_index = find_box_spr2; x=1310; y=644; break;
-	case loc.alley: sprite_index = find_box_spr; x=1060; y=830; break;
-	case loc.park: sprite_index = find_box_spr; x=913; y=618; break;
+	case loc.market: sprite_index = find_box_spr2; x=1310/2; y=644/2; break;
+	case loc.alley: sprite_index = find_box_spr; x=1060/2; y=830/2; break;
+	case loc.park: sprite_index = find_box_spr; x=913/2; y=618/2; break;
 	case loc.cafe: x=-100; y=-100; break;
 	case loc.pstation: x=-100; y=-100; break;
 	
+}
+
+if keyboard_check(vk_shift)
+{
+	x=mouse_x;
+	y=mouse_y;
 }
 //alley
 //x=1060
