@@ -7,6 +7,7 @@ y2=y+200;
 x=x1;
 y=y1;
 
+//textbox variables
 str = "";
 draw_set_font(defont);
 modifier = 0;
@@ -17,19 +18,13 @@ timer = 0;
 instant = false;
 box_wid = x2-x1 - margin*2;
 
-enum loc
-{
-	hotel,
-	market,
-	alley,
-	cafe,
-	pstation,
-	park,
-	void
-}
-
-text = 0;
+//dialouge UI variables
+text = -1;
 question = false;
+talking = actor.no_one;
+fade = 1;
+actor_arrive = false;
+actor_leave = false;
 
 //question object positions
 quest_y = y1+50;

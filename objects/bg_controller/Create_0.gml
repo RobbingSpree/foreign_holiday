@@ -15,4 +15,5 @@ image_index = global.scene;
 
 change_scene(global.scene);
 
-bg_actors = -1;
+bg_actors_1 = -1;
+bg_actors_2 = -1;
