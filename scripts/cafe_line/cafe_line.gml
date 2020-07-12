@@ -6,12 +6,12 @@ if global.cafe_visits == 0
 
 		case 0: return "/0A cafe! /1Yes/0! Surely someone here knows English. "; break
 		case 1: return "/0Gosh I really want a coffee and some /1banana bread/0."; break
-		case 2: text_box.actor_arrive = true; text_box.talking = actor.barista; return "/4Te re, lasola re do te! Medo sote la’?"; break
+		case 2: text_box.actor_arrive = true; text_box.talking = actor.barista; return "/4Te ray, lasola ray do te! Medo sote la’?"; break
 		case 3: load_question(global.scene,line,false); return "/3Ummmm . . ."; break
-		case 4: return "/4Mere te! La reteme rete so lame te! Rete la teresodo dore lare mere re larete?"; break
+		case 4: return "/4Mere te! La rayteme rayte so lame te! Rayte la teraysodo doray laray meray ray larayte?"; break
 		case 5: return "/3 /0The barista looks nervous, /1what did I just ask for...?/0"; break
 		case 6: load_question(global.scene,line,false); return "/3How about . . .?"; break
-		case 7: return "/4Sola tete, do rememe te sotere so la me sore la lamete la. Re te sodo mere"; break
+		case 7: return "/4Sola tete, do raymeme te soteray so la me soray la lamete la. Ray te sodo meray"; break
 		case 8: text_box.convo_end = true; global.cafe_visits++; return "/3 /0He looks unimpressed. /1Maybe /0I should leave?"; break
 
 		case 0: return "A cafe! Yes! Surely someone here knows English. Gosh I really want a coffee and some banana bread."; break
