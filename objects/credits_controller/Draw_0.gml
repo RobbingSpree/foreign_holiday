@@ -10,10 +10,21 @@ draw_text(room_width/3,room_height/3+250,"Trainee Programmer:");
 draw_text(room_width/3,room_height/3+325,"Design:");
 draw_text(room_width/3,room_height/3+400,"QA:");
 
-draw_set_halign(fa_left);
-draw_text(room_width/3*2,room_height/3+25,"Robert Tester");
-draw_text(room_width/3*2,room_height/3+100,"Nikarra Palmer-Simmons");
-draw_text(room_width/3*2,room_height/3+175,"Claire Emily");
-draw_text(room_width/3*2,room_height/3+250,"Tim May");
-draw_text(room_width/3*2,room_height/3+325,"See Listed Above");
-draw_text(room_width/3*2,room_height/3+400,"Ellen [REDACTED]");
+if !show_social
+{
+	draw_set_halign(fa_left);
+	draw_text(room_width/3*2,room_height/3+25,"Robert Tester");
+	draw_text(room_width/3*2,room_height/3+100,"Nikarra Palmer-Simmons");
+	draw_text(room_width/3*2,room_height/3+175,"Claire Emily");
+	draw_text(room_width/3*2,room_height/3+250,"Tim May");
+	draw_text(room_width/3*2,room_height/3+325,"See Listed Above");
+	draw_text(room_width/3*2,room_height/3+400,"Ellen [REDACTED]");
+} else {
+	draw_set_halign(fa_left);
+	draw_text(room_width/3*2,room_height/3+25,"Robert Tester");
+	draw_text(room_width/3*2,room_height/3+100,"Nikarra Palmer-Simmons");
+	draw_text(room_width/3*2,room_height/3+175,"Claire Emily");
+	draw_text(room_width/3*2,room_height/3+250,"Tim May");
+	draw_text(room_width/3*2,room_height/3+325,"See Listed Above");
+	draw_text(room_width/3*2,room_height/3+400,"Ellen [REDACTED]");
+}
