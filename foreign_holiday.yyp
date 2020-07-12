@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "306c057f-3186-4368-9e71-34655b697e78",
+            "Value": {
+                "id": "cd563697-e704-4f17-80d0-84aa13cc0976",
+                "resourcePath": "sounds\\space_opera_synthy_final1\\space_opera_synthy_final1.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "314670ff-7322-4817-9a4f-0878decfec15",
             "Value": {
                 "id": "e61e4d7d-71ce-4a26-8fda-cc01bc049455",
@@ -476,6 +484,14 @@
                 "id": "a25189fe-2fc6-44c7-9b54-e5d24adf6532",
                 "resourcePath": "views\\9acbef54-9db4-43c2-9fb5-457446438a30.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9bf0fb84-eb52-4e21-8015-911081c773b2",
+            "Value": {
+                "id": "37e79cd0-0e3e-4bcf-8380-e9de4f8e8d87",
+                "resourcePath": "sounds\\walking_about_final\\walking_about_final.yy",
+                "resourceType": "GMSound"
             }
         },
         {

@@ -2,10 +2,11 @@
 // You can write your code in this editor
 
 
-if mouse_over(self) && mouse_check_button_pressed(mb_left)
+if mouse_over(self) && mouse_check_button_released(mb_left)
 {
 	global.wife_find = true;
 	text_box.text = 0;
+	text_box.cutoff = 0;
 	text_box.actor_leave = true;
 	text_box.convo_end = false;
 	scene_flag.str = "Wife Find Get!";

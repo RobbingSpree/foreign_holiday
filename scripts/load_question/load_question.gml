@@ -23,8 +23,22 @@ if scene == loc.market
 	switch third_
 	{
 		case false: a_pointer = 1; b_pointer = 1; break;
-		case  true: case  1: a_pointer = 1; b_pointer = 1; c_pointer = 2; c_string = "Leave"; third_ = true break;
+		case true: a_pointer = 1; b_pointer = 1; c_pointer = 2; c_string = "Leave"; third_ = true break;
 	}
+if scene == loc.park
+	switch global.park_visits
+	{
+		case  2: case  1: a_pointer = 1; b_pointer = 1; c_pointer = 2; c_string = "Leave"; third_ = true break;
+		default: a_pointer = 1; b_pointer = 1; break;
+	}
+
+if scene == loc.alley
+	a_pointer = 1; b_pointer = 1; 
+if scene == loc.cafe
+	a_pointer = 1; b_pointer = 1; 
+if scene == loc.pstation
+	a_pointer = 1; b_pointer = 1; 
+
 
 
 
