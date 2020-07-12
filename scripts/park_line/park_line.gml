@@ -3,25 +3,47 @@ var line  = argument0;
 if global.park_visits == 0
 	switch line
 	{
-		case 0: return ""; break
-		case 0: return ""; break
-		case 0: return ""; break
-		case 0: return ""; break
-		case 0: return ""; break
-		case 0: return ""; break
-		case 0: return ""; break
-		case 0: return ""; break
-		case 0: return ""; break
-		case 0: return ""; break
-		case 0: return ""; break
-		case 0: return ""; break
-		case 0: return ""; break
-		case 0: return ""; break
+		case 0: return "Great a park. The sun on my face for a moment is helping my hangover. What’s that noise bringing back my headache? So many birds. Ooh a sweet old lady is feeding birds, I wonder if she’s seen Charlie"; break
+		case 0: return "[Old lady enters]"; break
+		case 0: return "Rayme te. Te sote solaso! La some La te te late telala. Sote so tedohlaso tedoh so. Tetete la laso te te te te so sote la te te te te teso. Doh dd tedohlaso la, ray sote late dd telaladoh. La te some sote te telaladoh?"; break
+		case 0: return "She’s handed me bird seed. I guess I’ll feed the birds with her for a moment. I could do with the sit down."; break
+		case 0: return "Te late doh late ray te sote so teso late. Me te te telaladoh?"; break
+		case 0: return "Ummmm . . . 	Sote	Sola"; break
+		case 0: return "Te te tedoh sote. Rayte te doh me te te sote raymete. Somete sote sofa te me laso te late."; break
+		case 0: return "She looks a little concerned. I hope the birds are ok. I better keep looking for Charlie."; break
+	
 		
-		default: return "I don't know what's going on.";
+		default: return "Man, I'm hungry; maybe I can eat the birdseed?";
 	}
 	
-	/*
+if global.park_visits == 1
+	switch line
+	{	
+		case 0: return "La te doh te late so do sola la? Ray fa ray so mefa me ray sote."; break
+		case 0: return "Ummmm . . . 	Sote	Sola"; break
+		case 0: return "Te te. La so tefa melate temete so sola la mesomemelate. Tetete tete te te me te late."; break
+		case 0: return "She looks a little concerned. I hope the birds are ok. I better keep looking for Charlie."; break
+
+	
+		default: return "Man, I'm hungry; maybe I can eat the birdseed?";
+	}
+	
+if global.park_visits == 2
+	switch line
+	{
+		case 0: return "… is that the love of my life standing over there? Charlie!"; break
+		case 0: return "[wife enters] Why, hello there dashing stranger!"; break
+		case 0: return "Aren't you a ight for sore eyes, finding you almost makes me forget my hangover!"; break
+		case 0: return "This sea air can only help! Here, have some banana bread. She smiles and hands you some food before kissing you on the cheek."; break
+		case 0: return "I’m so glad to be here with you!"; break
+		case 0: return "We sit a while in the park, taking the opportunity to just bask in the glory of one another."; break
+		
+		default: return "This is more like it!";
+	}
+	
+
+
+/*
 Park: 1 Old lady feeding birds (No repeat)
 Internal monologue: Great a park. The sun on my face for a moment is helping my hangover. What’s that noise bringing back my headache? So many birds. Ooh a sweet old lady is feeding birds, I wonder if she’s seen Charlie?
 [Old lady enters]
@@ -34,6 +56,7 @@ Character selection: Ummmm . . . 	Sote	Sola
 NPC dialogue: Te te tedoh sote. Rayte te doh me te te sote raymete. Somete sote sofa te me laso te late.
 {Dear me young one. Maybe you need to get your eyes checked. Those are things you do with your wife.}
 Internal monologue: She looks a little concerned. I hope the birds are ok. I better keep looking for Charlie.
+
 Park: 2 Old lady feeding birds  (Repeat) if you select to come back
 NPC dialogue: La te doh te late so dd sola la? Ray fa ray so mefa me ray sote.
 {Did you see your wife pass by just now? She said she was going to the cafe.}
@@ -43,6 +66,8 @@ NPC dialogue: Te te. La so tefa melate temete so sola la mesomemelate. Tetete te
 Internal monologue: She looks more concerned.
 Character selection: Ummmm . . . 	Sote	Sola	 Leave
 If you select anything but leave you go to the police station, bad ending.
+
+
 Park: Wife 1 (looking out over the ocean)
 Character internal dialogue: ... is that the love of my life standing over there? Charlie!
 Wife: “Why, hello there dashing stranger!”

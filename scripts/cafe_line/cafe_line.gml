@@ -3,6 +3,7 @@ var line  = argument0;
 if global.cafe_visits == 0
 	switch line
 	{
+
 		case 0: return "/0A cafe! /1Yes/0! Surely someone here knows English. "; break
 		case 1: return "/0Gosh I really want a coffee and some /1banana bread/0."; break
 		case 2: text_box.actor_arrive = true; text_box.talking = actor.barista; return "/4Te re, lasola re do te! Medo sote la’?"; break
@@ -12,6 +13,16 @@ if global.cafe_visits == 0
 		case 6: load_question(global.scene,line,false); return "/3How about . . .?"; break
 		case 7: return "/4Sola tete, do rememe te sotere so la me sore la lamete la. Re te sodo mere"; break
 		case 8: text_box.convo_end = true; global.cafe_visits++; return "/3 /0He looks unimpressed. /1Maybe /0I should leave?"; break
+
+		case 0: return "A cafe! Yes! Surely someone here knows English. Gosh I really want a coffee and some banana bread."; break
+		case 0: return "Te ray, lasola ray do te! Medo sote la’?"; break
+		case 0: return "Ummmm . . . 	Sote	Sola"; break
+		case 0: return "Mere te! La rayteme rayte so lame te! Rayte la teraysodo doray laray meray ray larayte?"; break
+		case 0: return "The barista looks nervous, what did I just ask for…?"; break
+		case 0: return "How about . . .? 	Sote	Sola"; break
+		case 0: return "Sola tete, do raymeme te soteray so la me soray la lamete la. Ray te sodo meray"; break
+		case 0: return "He looks unimpressed. Maybe I should leave?"; break
+
 		
 		default: return "Why does no one understand me?";
 	}
