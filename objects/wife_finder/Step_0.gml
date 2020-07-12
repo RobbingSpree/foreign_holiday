@@ -9,6 +9,7 @@ if mouse_over(self) && mouse_check_button_pressed(mb_left)
 	text_box.actor_leave = true;
 	text_box.convo_end = false;
 	scene_flag.str = "Wife Find Get!";
+	scene_flag.ease_in = true;
 }
 
 switch global.scene
