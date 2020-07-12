@@ -3,7 +3,7 @@
 counter = 0;
 spd = 1;
 timer = 0;
-for (var i = 24; i > -1; i--)
+for (var i = 25; i > -1; i--)
 {
 	text[i] = "Line "+string(i+1)+": blah blah blah blah blah blah blah";
 	text[i] = get_crawl_line(i);

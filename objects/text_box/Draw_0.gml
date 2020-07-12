@@ -106,7 +106,7 @@ if str != "" || instant
 		space++
 		i++
 	}
-} //else draw_text_ext(x1+margin,y1+margin,str,new_row,box_wid);
+} else draw_text_ext(x1+margin,y1+margin,str,new_row,box_wid);
 
 
 draw_set_color(c_white);

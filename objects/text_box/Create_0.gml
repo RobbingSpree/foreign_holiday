@@ -8,15 +8,16 @@ x=x1;
 y=y1;
 
 //textbox variables
-str = "";
+str = "Press Space or Left Click this box to advance.";
 draw_set_font(defont);
 modifier = 0;
 margin = 30;
 new_row = 30;
 cutoff = 0;
 timer = 0;
-instant = false;
+instant = true;
 box_wid = x2-x1 - margin*2;
+global.wife_find = false;
 
 //dialouge UI variables
 text = 0;
@@ -28,7 +29,7 @@ actor_arrive = false;
 actor_leave = false;
 
 //question object positions
-quest_y = y1+50;
+quest_y = y1-50-130;
 pt3_a = x1+30;
 pt3_b = pt3_a+210;
 pt3_c = pt3_b+210;

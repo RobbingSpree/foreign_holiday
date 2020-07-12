@@ -10,7 +10,7 @@ for(var p = 0; p < stars; p++)
 draw_set_halign(fa_center);
 draw_set_color(c_yellow);
 
-for (var i = 0; i < 24; i++)
+for (var i = 0; i < 25; i++)
 {
    var yy = gui_h - (timer-i*spacing) + min(gui_h, 0.25 *(timer-i*spacing)*(timer-i*spacing) / gui_h);
     if ((yy > -spacing) && (yy < gui_h))
@@ -20,4 +20,4 @@ for (var i = 0; i < 24; i++)
     }
 }
 draw_set_color(c_white);
-draw_text(20,20,counter);
+//draw_text(20,20,counter);

@@ -1,13 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
-if (mouse_within(x1,y1,x2,y2) && mouse_check_button_pressed(mb_left) || keyboard_check_pressed(vk_space)) && question = false && !convo_end 
+if (mouse_within(x1,y1,x2,y2) && mouse_check_button_pressed(mb_left) || keyboard_check_pressed(vk_space)) && !convo_end 
 {
-	if cutoff >= string_length(str)-1
+	if cutoff >= string_length(str)-1 && !question
 	{
 		text ++;
 		cutoff =0;
+		instant = false;
 		load_next_text(global.scene,text);
 	} else 
 		cutoff = string_length(str);

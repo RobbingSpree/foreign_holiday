@@ -7,3 +7,4 @@ hide = true;
 
 tutorial_hide = true;
 dx = x;
+stopped = false;
