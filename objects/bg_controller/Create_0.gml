@@ -10,4 +10,9 @@ change = 0.05;
 flag = false;
 new_bg = -1;
 
+global.scene = loc.void;
+image_index = global.scene;
+
 change_scene(global.scene);
+
+bg_actors = -1;

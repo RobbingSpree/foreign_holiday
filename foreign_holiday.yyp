@@ -39,10 +39,18 @@
             }
         },
         {
+            "Key": "02f63fa9-4e26-4789-abcf-d44900f8daf9",
+            "Value": {
+                "id": "378945e2-4d0c-42d9-ba96-22c9e530e569",
+                "resourcePath": "objects\\title_crawl\\title_crawl.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "067d34fa-95db-47b9-ad17-0caed0991315",
             "Value": {
                 "id": "29ef1938-dc30-49cb-8bcd-c220cd0bcd2e",
-                "resourcePath": "objects\\debug\\debug.yy",
+                "resourcePath": "objects\\debug_text\\debug_text.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -194,7 +202,7 @@
             "Key": "4a91391f-7163-44cc-8e62-2cc63a98e7bd",
             "Value": {
                 "id": "92e71bd4-f5d3-4820-9002-ceeee35adea1",
-                "resourcePath": "rooms\\debug_room\\debug_room.yy",
+                "resourcePath": "rooms\\title_crawl_room\\title_crawl_room.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -359,6 +367,14 @@
             }
         },
         {
+            "Key": "9c349719-ce6d-42ee-aa31-8128aab26511",
+            "Value": {
+                "id": "1e748757-241b-4393-9f8c-891110fc5c17",
+                "resourcePath": "sprites\\scene_bg_actors\\scene_bg_actors.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9eed6abb-f4b9-47dd-bc56-7d4190e06026",
             "Value": {
                 "id": "d7300fc6-39e8-407f-9644-957af77508c4",
@@ -436,6 +452,14 @@
                 "id": "8be41030-96d7-4c5a-8cb5-3974e4245ec0",
                 "resourcePath": "fonts\\title_sub_font\\title_sub_font.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "bb89e1d4-19ab-48aa-babb-d05623a55516",
+            "Value": {
+                "id": "56179f90-9d29-49c2-be9a-ef909a3f0a52",
+                "resourcePath": "sprites\\character_closeups\\character_closeups.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

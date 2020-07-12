@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Setup textbox
 
 x1=room_width/5;
 y1=y;
@@ -18,9 +17,6 @@ timer = 0;
 instant = false;
 box_wid = x2-x1 - margin*2;
 
-global.scene = loc.hotel;
-
-
 enum loc
 {
 	hotel,
@@ -35,18 +31,10 @@ enum loc
 text = 0;
 question = false;
 
-var thirds = (x2-x1) / 3;
+//question object positions
 quest_y = y1+50;
-pt3_a = x1;
-pt3_b = x1 + thirds;
-pt3_c = x1 + thirds*2;
-//debug
 pt3_a = x1+30;
 pt3_b = pt3_a+210;
 pt3_c = pt3_b+210;
-var half = (x2-x1/2)+ 50;
-pt2_a = x1+50;
-pt2_b = x1+ half;
-//debug
 pt2_a = x1+50;
 pt2_b = pt2_a+350;
