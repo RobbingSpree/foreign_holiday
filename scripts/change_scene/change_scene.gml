@@ -11,3 +11,8 @@ bg_controller.new_bg = global.scene;
 text_box.text = 0;
 text_box.actor_leave = true;
 text_box.convo_end = false;
+text_box.str = "";
+with text_choice
+{
+	instance_destroy(self);
+}
