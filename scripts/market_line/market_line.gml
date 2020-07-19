@@ -24,7 +24,7 @@ if global.market_visits == 0
 		case 5: load_question(global.scene,line,false); return "/3Hmm, he's looking at me expectantly. What should I say?"; break
 		case 6: return "/4La te' ray te laso soso. La so' some te la teso te'te rayfa!"; break
 		case 7: return "/3They look a little cranky. Maybe the apples aren't for sale."; break
-		case 8: loc_list.loc_status[loc.alley].hidden = false; text_box.convo_end = true; global.market_visits++; return "/0Did he motion towards that /2alley/0? I guess I'll look that way."; break
+		case 8: location_controller.talking_hide=false; loc_list.loc_status[loc.alley].hidden = false; text_box.convo_end = true; global.market_visits++; return "/0Did he motion towards that /2alley/0? I guess I'll look that way."; break
 		default: return "I'm In a market";
 	}
 
@@ -36,7 +36,7 @@ if global.market_visits == 1
 		case 2: load_question(global.scene,line,false); return "/0Ummm . . . "; break;
 		case 3: return "/4La doh te me tete la!"; break;
 		case 4: return "/0He really won't let me take an apple."; break;
-		case 5: text_box.convo_end = true; global.market_visits++; return "/0I just need to find Charlie and then I can eat. Where /2haven't/0 I looked in this town?"; break;
+		case 5: location_controller.talking_hide=false; text_box.convo_end = true; global.market_visits++; return "/0I just need to find Charlie and then I can eat. Where /2haven't/0 I looked in this town?"; break;
 	}
 
 
@@ -51,7 +51,7 @@ if global.market_visits == 2
 		case 5: return "/4La te so' tete la La so sofa ray melate!"; break;
 		case 6: load_question(global.scene,line,true); return "They look upset . . ."; break;
 		case 7: global.market_visits++; change_scene(loc.pstation); return "A sten looking Police Officer gets called over and takes you away.";
-		case 8: text_box.convo_end = true; return "You beat a hasty retreat. Where to now?"; break;
+		case 8: location_controller.talking_hide=false; text_box.convo_end = true; return "You beat a hasty retreat. Where to now?"; break;
 	}
 
 

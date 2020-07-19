@@ -11,7 +11,7 @@ if global.cafe_visits == 0
 		case 5: return "/3 /0The barista looks nervous, /1what did I just ask for...?/0"; break
 		case 6: load_question(global.scene,line,false); return "/3How about . . .?"; break
 		case 7: return "/4Sola tete, do raymeme te soteray so la me soray la lamete la. Ray te sodo meray"; break
-		case 8: text_box.convo_end = true; global.cafe_visits++; return "/3 /0He looks unimpressed. /1Maybe /0I should leave?"; break
+		case 8: location_controller.talking_hide=false; text_box.convo_end = true; global.cafe_visits++; return "/3 /0He looks unimpressed. /1Maybe /0I should leave?"; break
 		
 		default: return "Why does no one understand me?";
 	}

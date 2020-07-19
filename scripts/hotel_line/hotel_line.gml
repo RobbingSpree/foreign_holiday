@@ -31,7 +31,7 @@ if global.hotel_visits == 0
 		case 17: return "Ok . . . I guess they want an answer. "; break
 		case 18: load_question(global.scene,line,false); return"What should I say?"; break;
 		case 19: return"/4Teso La' metelate soso te doh te te te late sola. Dohme te ray." break;
-		case 20: global.hotel_visits++; location_controller.tutorial_hide=false; return"/3Oh they're inviting me to leave. I guess I'm not getting the map then." break;
+		case 20: global.hotel_visits++; location_controller.talking_hide=false; return"/3Oh they're inviting me to leave. I guess I'm not getting the map then." break;
 		case 21: return"I leave the hotel and head outside.";  break;
 
 		default: return "A woman approaches...";
@@ -45,7 +45,7 @@ if global.hotel_visits == 1
 		case 2: return "/4Soso La te la te sote some dd?"; break;
 		case 3: load_question(global.scene,line,false); return "/3They're looking at me expectantly..."; break;
 		case 4: return "/4Te la' so dohte. Dohme te ray"; break;
-		case 5: return "/3I should look somewhere else"; break;
+		case 5: location_controller.talking_hide=false; return "/3I should look somewhere else"; break;
 	}
 
 //case 18: return"" break;

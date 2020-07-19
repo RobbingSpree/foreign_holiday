@@ -5,6 +5,6 @@
 
 hide = true;
 
-tutorial_hide = true;
+talking_hide = true;
 dx = x;
 stopped = false;

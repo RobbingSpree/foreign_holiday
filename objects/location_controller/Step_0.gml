@@ -5,7 +5,7 @@ if mouse_over(self) && mouse_check_button_pressed(mb_left)
 	hide = !hide
 
 /*
-if tutorial_hide 
+if talking_hide 
 	x = dx + 300;
 else if x!= dx && !stopped
 {

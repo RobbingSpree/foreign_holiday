@@ -6,6 +6,7 @@ scene_flag.ease_in=true;
 scene_flag.ease_out=false;
 scene_flag.str = get_scene_title(argument0);
 location_controller.hide=true;
+location_controller.talking_hide=true;
 bg_controller.flag = true;
 bg_controller.new_bg = global.scene;
 text_box.text = 0;

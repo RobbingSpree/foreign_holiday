@@ -28,7 +28,7 @@ if global.park_visits == 0
 		case 8: return "/4Te late doh late ray te sote so teso late. Me te te telaladoh?"; break
 		case 9: load_question(global.scene,line,false); return  "Ummmm . . ."; break
 		case 10: return "/4Te te tedoh sote. Rayte te doh me te te sote raymete. Somete sote sofa te me laso te late."; break
-		case 11: text_box.convo_end = true; global.park_visits++; return "/3She looks a little concerned. I hope the birds are ok. I better keep looking for Charlie."; break
+		case 11: location_controller.talking_hide=false; text_box.convo_end = true; global.park_visits++; return "/3She looks a little concerned. I hope the birds are ok. I better keep looking for Charlie."; break
 	
 		default: return "Man, I'm hungry; maybe I can eat the birdseed?";
 	}
@@ -42,7 +42,7 @@ if global.park_visits == 1
 		case 3: load_question(global.scene,line,false); return "Ummmm . . ."; break
 		case 4: return "/4Te te. La so tefa melate temete so sola la mesomemelate. Tetete tete te te me te late."; break
 		case 5: return "She looks a little concerned. I hope the birds are ok."; break
-		case 6: loc_list.loc_status[loc.cafe].hidden = false; text_box.convo_end = true; global.park_visits++; return "/0I better keep looking for Charlie. I /1think/0 I can see a /2Cafe /0in the distance."; break
+		case 6: location_controller.talking_hide=false; loc_list.loc_status[loc.cafe].hidden = false; text_box.convo_end = true; global.park_visits++; return "/0I better keep looking for Charlie. I /1think/0 I can see a /2Cafe /0in the distance."; break
 
 		default: return "Man, I'm hungry; maybe I can eat the birdseed?";
 	}
@@ -56,7 +56,7 @@ if global.park_visits == 1
 		case 3: load_question(global.scene,line,true); return "Ummmm . . ."; break
 		case 4: return "/4Te te. La so tefa melate temete so sola la mesomemelate. Tetete tete te te me te late."; break
 		case 5: text_box.convo_end = true; change_scene(loc.pstation); return "The old lady flags someone down and I realise too late it's a police officer. They lead me away."; break
-		case 6: text_box.convo_end = true; return "/0I better keep looking for Charlie. Have I looked /2everywhere/0?"; break
+		case 6: location_controller.talking_hide=false; text_box.convo_end = true; return "/0I better keep looking for Charlie. Have I looked /2everywhere/0?"; break
 
 		default: return "Man, I'm hungry; maybe I can eat the birdseed?";
 	}

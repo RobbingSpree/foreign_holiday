@@ -25,7 +25,7 @@ if global.alley_visits == 0
 		case 6: return "/4Ray so! La so' te soso meso laso. La sote sososote, me te sososote."; break
 		case 7: load_question(global.scene,line,false); return "Ummmm . . . "; break
 		case 8: return "/4So! La sote sososote, te sososote."; break
-		case 9: loc_list.loc_status[loc.park].hidden = false; text_box.actor_leave = true; text_box.convo_end = true; global.alley_visits++; return "/3He skulks back into the shadows of the alley."; break
+		case 9: location_controller.talking_hide=false; loc_list.loc_status[loc.park].hidden = false; text_box.actor_leave = true; text_box.convo_end = true; global.alley_visits++; return "/3He skulks back into the shadows of the alley."; break
 
 		default: return "I'm in danger";
 	}
@@ -35,7 +35,7 @@ if global.alley_visits == 1
 	{
 		case 0: return "A friendly cat approaches..."; break;
 		case 1: text_box.actor_arrive = true; text_box.talking = actor.cat; return "/4MEOW! Meow, meow."; break;
-		case 2: text_box.convo_end = true; global.alley_visits++; return "/0 /3Gosh, this is the /1only/0 person that makes any sense to me at the moment. "; break;
+		case 2: location_controller.talking_hide=false; text_box.convo_end = true; global.alley_visits++; return "/0 /3Gosh, this is the /1only/0 person that makes any sense to me at the moment. "; break;
 		default: return "Cat cat cat cat.";
 	}
 	
@@ -48,7 +48,7 @@ if global.alley_visits == 2
 		case 1: text_box.actor_arrive = true; text_box.talking = actor.thug; return "/4Ray so! Sote La me so te me te."; break;
 		case 2: return "/4La' sote La te ray te mete te me te late te."; break;
 		case 3: load_question(global.scene,line,false); return "Ummmm . . . "; break;
-		case 4: text_box.convo_end = true; global.alley_visits++; return "/4So! La sote sososote, te sososote."; break;
+		case 4: location_controller.talking_hide=false; text_box.convo_end = true; global.alley_visits++; return "/4So! La sote sososote, te sososote."; break;
 		
 	}
 	
@@ -57,7 +57,7 @@ if global.alley_visits == 3
 	{
 		case 0: return "A friendly cat approaches..."; break;
 		case 1: text_box.actor_arrive = true; text_box.talking = actor.cat; return "/4Rewow. Meeeow, meow."; break;
-		case 2: text_box.convo_end = true; global.alley_visits--; return "/0 /3Hey kitty it's you again. Have you seen Charlie?"; break;
+		case 2: location_controller.talking_hide=false; text_box.convo_end = true; global.alley_visits--; return "/0 /3Hey kitty it's you again. Have you seen Charlie?"; break;
 		default: return "Cat cat cat cat.";
 	}	
 	
