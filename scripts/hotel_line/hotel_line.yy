@@ -1,8 +1,12 @@
 {
-    "id": "93733514-a680-4a45-8ed1-58bd0ddcbdd2",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "hotel_line",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "script loaders",
+    "path": "folders/Scripts/script loaders.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "hotel_line",
+  "tags": [],
+  "resourceType": "GMScript",
 }

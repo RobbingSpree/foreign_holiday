@@ -1,8 +1,12 @@
 {
-    "id": "50c76306-d901-463b-ab95-38c6b75caece",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "station_line",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "script loaders",
+    "path": "folders/Scripts/script loaders.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "station_line",
+  "tags": [],
+  "resourceType": "GMScript",
 }

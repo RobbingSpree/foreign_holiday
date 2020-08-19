@@ -1,9 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 counter = 0;
-spd = 1;
 timer = 0;
-for (var i = 25; i > -1; i--)
+for (var i = 24; i > -1; i--)
 {
 	text[i] = "Line "+string(i+1)+": blah blah blah blah blah blah blah";
 	text[i] = get_crawl_line(i);
@@ -22,8 +21,6 @@ for (var i = stars-1; i > -1; i--)
     py[i] = irandom(gui_h);
 }
 draw_set_font(title_crawl_font);
-
-audio_play_sound(space_opera_synthy_final,1,false);
 
 //from 
 //https://forum.yoyogames.com/index.php?threads/creating-an-intro-screen.12788/

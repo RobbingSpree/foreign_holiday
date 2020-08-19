@@ -8,33 +8,28 @@ x=x1;
 y=y1;
 
 //textbox variables
-str = "Press Space or Left Click this box to advance.";
+str = "";
 draw_set_font(defont);
 modifier = 0;
 margin = 30;
 new_row = 30;
 cutoff = 0;
 timer = 0;
-instant = true;
+instant = false;
 box_wid = x2-x1 - margin*2;
-global.wife_find = false;
 
 //dialouge UI variables
-text = 0;
+text = -1;
 question = false;
-convo_end = false;
 talking = actor.no_one;
-fade = 0;
+fade = 1;
 actor_arrive = false;
 actor_leave = false;
 
 //question object positions
-quest_y = y1-50-130;
+quest_y = y1+50;
 pt3_a = x1+30;
 pt3_b = pt3_a+210;
 pt3_c = pt3_b+210;
 pt2_a = x1+50;
 pt2_b = pt2_a+350;
-
-//sound
-audio_play_sound(walking_about_final,1,true);

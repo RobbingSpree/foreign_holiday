@@ -1,8 +1,12 @@
 {
-    "id": "4a0912ec-8f21-4157-b8bc-2e5bb543db77",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "change_scene",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "change_scene",
+  "tags": [],
+  "resourceType": "GMScript",
 }

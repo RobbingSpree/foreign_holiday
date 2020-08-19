@@ -2,10 +2,8 @@
 // You can write your code in this editor
 
 if mouse_check_button_released(mb_left)
-{
-	audio_stop_sound(Holiday_music_sarcasm);
 	room_goto_next();
-}	
+	
 if keyboard_check_pressed(ord("C"))
 	room_goto(credit_room);
 	
@@ -15,4 +13,3 @@ if keyboard_check_pressed(ord("C"))
 	global.park_visits = 0;
 	global.cafe_visits = 0;
 	global.police_visits = 0;
-	global.void_visits = 0;

@@ -5,4 +5,4 @@ choice = "a";
 
 str = "Yes?";
 
-story_pointer = 1;
+story_pointer = -1;

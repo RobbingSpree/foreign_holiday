@@ -32,3 +32,8 @@ if flag
 		new_bg = -1;
 	}
 }
+
+if keyboard_check_pressed(vk_shift)
+	bg_actors++
+if keyboard_check_pressed(vk_escape)
+	bg_actors=-1;

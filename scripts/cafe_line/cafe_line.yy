@@ -1,8 +1,12 @@
 {
-    "id": "cc1e51e4-934b-4d88-a055-33b21901076d",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "cafe_line",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "script loaders",
+    "path": "folders/Scripts/script loaders.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "cafe_line",
+  "tags": [],
+  "resourceType": "GMScript",
 }

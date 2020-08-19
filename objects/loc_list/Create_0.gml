@@ -7,11 +7,10 @@ for (var i=0; i<6; i++)
 {
 	var item = instance_create_layer(x,y+30+60*i,"higher_instances",loc_item);
 	item.index = i;
-	item.hidden = true;
+	item.hidden = false;
 	loc_status[i] = item;
 }
 
-loc_status[loc.hotel].hidden = false;
-loc_status[loc.market].hidden = false;
+loc_status[0].hidden = false;
 
 dx = x;
